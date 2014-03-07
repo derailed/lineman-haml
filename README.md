@@ -2,6 +2,7 @@
 
 This [Lineman](http://linemanjs.com) plugin makes it easy to use Haml templates
 in your web application.
+This module is based on [grunt-haml](https://github.com/concordusapps/grunt-haml)
 
 ## Installation
 
@@ -20,5 +21,6 @@ defaults setting by running:
 $ lineman config haml
 ```
 
-Once you've restarted you should now see you haml templates being converted to
-html in the lineman console.
+Once you've restarted lineman, you should now see a haml task output in your
+console. You Haml pages and templates should now be converted to html in your
+generated directory.
